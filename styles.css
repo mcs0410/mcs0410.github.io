@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', cursive;
+    background-color: #272727;
+    color: white;
+}
+    .top-page {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .top-page header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .top-page header h1 {
+    margin-left: 20px;
+  }
+  
+  .top-page nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .top-page nav li {
+    margin-left: 40px;
+  }
+  .top-page nav ul {
+    list-style: none;
+    padding: 0px; 
+    margin: 0;
+  }
+  
+  .top-page nav li {
+    text-decoration: none;
+    list-style: none ;
+  }
+  
+  .top-page nav a {
+    text-decoration: none; 
+  }
+  .top-page form {
+    margin-left: 20px;
+  }
+      h1 {
+        padding-right: 20px;
+        font-size: 210%;
+      }
+      h2{
+        padding-left: 10px;
+        margin-bottom: 2px;
+      }
+      .card img {
+        width: 100%;
+        max-width: 130px;
+        border-radius: 10px;
+      }
+      .card {
+        display: inline-block;
+        width: 130px;
+        height: auto;
+        margin: 10px;
+      }
+      .rectangle {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    .background-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .elements {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        z-index: 2;
+        text-shadow: 2px 2px 5px black;
+        background: none ;
+    }
+    .title {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        background: none ;
+    }
+    .rating {
+        display: inline-block;
+        font-size: 1.2em;
+        background-color: #444;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .details {
+        font-size: 1em;
+        margin-bottom: 20px;
+        background: none ;
+    }
+    .description {
+        font-size: 1em;
+        margin-bottom: 20px;
+        background: none ;
+    }
+    .watch-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
